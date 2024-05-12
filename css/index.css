@@ -1,0 +1,9 @@
+.borde{
+    border-bottom: 1px solid #000;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 5px;
+}

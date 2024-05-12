@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/img/logo_game_nexus.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Game Nexus</title>
+  </head>
+  <body>
+    <header>
+      <div
+        class="bg-primary text-light p-3 d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <p class="m-0">
+            COMPRA AHORA y ahorra el 90% - Contactanos 1-(305)-725-1000
+          </p>
+          <div>
+            <i class="bi text-light bi-facebook me-3"></i>
+            <i class="bi bi-instagram me-3"></i>
+            <i class="bi bi-whatsapp me-3"></i>
+            <i class="bi bi-tiktok"></i>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/img/logo_game_nexus.jpg"
+              alt="Bootstrap"
+              width="70"
+              height="70"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Juegos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lanzamientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/god_of_war.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/hogwarts.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/resident_evil_4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/fifa_2024.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="container">
+        <div class="dropdown ms-1 mt-3 mb-3">
+          <button
+            class="btn btn-ligth dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Categorias
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <button class="dropdown-item" type="button">
+                Juegos Digitales
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item" type="button">Play Station</button>
+            </li>
+            <li><button class="dropdown-item" type="button">Xbox</button></li>
+            <li><button class="dropdown-item" type="button">Pc</button></li>
+          </ul>
+        </div>
+
+        <div class="">
+          <p class="borde mt-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-fire"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"
+              />
+            </svg>
+            ESTRENOS
+          </p>
+        </div>
+
+        <div id="galeria" class="galeria mb-5">
+          <div class="card" style="width: 15rem">
+            <img src="/img/photo_1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">$22.601</p>
+              <a
+                href="#"
+                class="btn btn-primary d-flex justify-content-center align-self-center"
+                ><svg
+                  style="margin-top: 4px; margin-right: 2px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                  /></svg
+                >Comprar</a
+              >
+            </div>
+          </div>
+
+          <div class="card" style="width: 15rem">
+            <img src="/img/photo_2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">$20.089</p>
+              <a
+                href="#"
+                class="btn btn-primary d-flex justify-content-center align-self-center"
+                ><svg
+                  style="margin-top: 4px; margin-right: 2px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                  /></svg
+                >Comprar</a
+              >
+            </div>
+          </div>
+
+          <div class="card" style="width: 15rem">
+            <img src="/img/photo_3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">$36.723</p>
+              <a
+                href="#"
+                class="btn btn-primary d-flex justify-content-center align-self-center"
+                ><svg
+                  style="margin-top: 4px; margin-right: 2px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                  /></svg
+                >Comprar</a
+              >
+            </div>
+          </div>
+
+          <div class="card" style="width: 15rem">
+            <img src="/img/photo_4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">$36.454</p>
+              <a
+                href="#"
+                class="btn btn-primary d-flex justify-content-center align-self-center"
+                ><svg
+                  style="margin-top: 4px; margin-right: 2px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                  /></svg
+                >Comprar</a
+              >
+            </div>
+          </div>
+
+          <div class="card" style="width: 15rem">
+            <img src="/img/photo_5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">$29.122</p>
+              <a
+                href="#"
+                class="btn btn-primary d-flex justify-content-center align-self-center"
+                ><svg
+                  style="margin-top: 4px; margin-right: 2px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                  /></svg
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <!--fin seccion 5 juegos-->
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-primary text-light p-3 d-flex justify-content-between align-items-center" >
+        <img src="/img/logo_game_nexus.jpg" width="30" height=30" alt="">
+        <p class="m-0">
+            Todos los derechos reservados
+          </p>
+        <div
+        class="bg-primary text-light p-1 d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          
+          <div>
+            <i class="bi text-light bi-facebook me-3"></i>
+            <i class="bi bi-instagram me-3"></i>
+            <i class="bi bi-whatsapp me-3"></i>
+            <i class="bi bi-tiktok"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
